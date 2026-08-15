@@ -35,10 +35,11 @@ if st.button("Predict Churn"):
         "Payment_Delay": payment_delay
     }
 
-    response = requests.post(
-        "http://127.0.0.1:8000/predict",
-        json=data
-    )
+       response = requests.post(
+      "https://customer-churn-fastapi-2.onrender.com/predict",
+       json=data
+)
+    
 
     if response.status_code == 200:
         result = response.json()
