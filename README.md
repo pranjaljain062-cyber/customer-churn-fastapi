@@ -10,6 +10,22 @@ The API accepts customer information, processes the input through the trained mo
 
 A Streamlit application is used as the frontend to interact with the API.
 
+## 🌐 Live Demo
+
+🚀 **Live Streamlit App:**  
+https://customer-churn-prediction-fygwdkcnpbpdryyqv8t3fn.streamlit.app/
+
+🔌 **FastAPI Backend:**  
+https://customer-churn-fastapi-2.onrender.com
+
+📖 **API Documentation (Swagger):**  
+https://customer-churn-fastapi-2.onrender.com/docs
+
+❤️ **API Health Check:**  
+https://customer-churn-fastapi-2.onrender.com/health
+
+> The Streamlit app is the user-facing application. FastAPI runs as the backend API and handles the ML predictions.
+
 ## 🎯 Project Goals
 
 - ✔ Serve a trained ML model through FastAPI
