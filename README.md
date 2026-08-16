@@ -94,13 +94,6 @@ The API returns:
 | GET | `/health` | Check API and model status |
 | POST | `/predict` | Generate churn prediction |
 
-## 📖 Swagger Documentation
-
-FastAPI automatically provides interactive API documentation.
-
-Open:
-
-    http://127.0.0.1:8000/docs
 
 From Swagger UI, you can:
 
@@ -110,29 +103,6 @@ From Swagger UI, you can:
 - Test predictions
 - View API responses
 
-## 🖥️ Streamlit Frontend
-
-The Streamlit application provides a simple interface for entering customer information.
-
-    Streamlit
-        ↓
-    requests.post()
-        ↓
-    FastAPI /predict
-        ↓
-    ML Model
-        ↓
-    Prediction
-
-Streamlit application:
-
-    http://localhost:8501
-
-Network URL:
-
-    http://10.235.139.97:8501
-
-> The Network URL is accessible only on the same local network while the application is running.
 
 ## ⚠️ Error Handling
 
